@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "SSC.#####",
+ "creation": "2023-08-14 16:38:44.383601",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_side_doc",
+  "column_break_1zckw",
+  "enable",
+  "section_break_x3cjt",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_ybn7n",
+  "full_name",
+  "date",
+  "age",
+  "section_break_lbn3s",
+  "child",
+  "section_break_jsiwy",
+  "child1",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_ybn7n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Birth Date"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_lbn3s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "child",
+   "fieldtype": "Table",
+   "label": "Family Detail",
+   "options": "Client Child"
+  },
+  {
+   "fieldname": "section_break_jsiwy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "child1",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Education Details",
+   "options": "child"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Server Side Scripting",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_side_doc",
+   "fieldtype": "Link",
+   "label": "Client Side Doc",
+   "options": "Client Side Scripting"
+  },
+  {
+   "fieldname": "section_break_x3cjt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_1zckw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "enable",
+   "fieldtype": "Button",
+   "label": "Enable"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-08-22 11:29:30.672969",
+ "modified_by": "Administrator",
+ "module": "Scripting",
+ "name": "Server Side Scripting",
+ "name_case": "Title Case",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:first_name",
+ "creation": "2023-08-10 12:40:07.115135",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_ybn7n",
+  "full_name",
+  "date",
+  "age",
+  "section_break_lbn3s",
+  "child",
+  "amended_from",
+  "section_break_jsiwy",
+  "child1"
+ ],
+ "fields": [
+  {
+   "default": " ",
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "set_only_once": 1,
+   "unique": 1
+  },
+  {
+   "default": " ",
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "default": " ",
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_ybn7n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_lbn3s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "child",
+   "fieldtype": "Table",
+   "label": "Family Detail",
+   "options": "Client Child"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Side Scripting",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Birth Date"
+  },
+  {
+   "fieldname": "child1",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Education Details",
+   "options": "child"
+  },
+  {
+   "fieldname": "section_break_jsiwy",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-08-16 13:56:30.757478",
+ "modified_by": "Administrator",
+ "module": "Scripting",
+ "name": "Client Side Scripting",
+ "name_case": "Title Case",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

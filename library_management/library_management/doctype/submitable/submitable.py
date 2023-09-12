@@ -1,0 +1,8 @@
+# Copyright (c) 2023, karan and contributors
+# For license information, please see license.txt
+
+# import frappe
+from frappe.model.document import Document
+
+class submitable(Document):
+	pass

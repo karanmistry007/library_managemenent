@@ -1,0 +1,64 @@
+{% extends "templates/web.html" %}
+
+
+
+{% block page_content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+        
+        
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="breadcrumb-item">
+                <a itemprop="item" href="/me">
+                    <span itemprop="name">My Account</span>
+                    <meta itemprop="position" content="1">
+                </a>
+            </li>
+        
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="breadcrumb-item active" aria-current="page">
+            <a href="./" itemprop="item">
+                <span itemprop="name">List</span>
+                <meta itemprop="position" content="2">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="breadcrumb-item active" aria-current="page">
+            <span itemprop="item">
+                <span itemprop="name">{{ title }}</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </li>
+    </ol>
+</nav>
+<div class='py-20 row'>
+
+    <div class='col-sm-2'>
+
+        <img class="rounded-lg" alt='{{ title }}' src='{{ image }}'>
+
+    </div>
+
+    <div class='col'>
+
+        <h1>{{ title }}</h1>
+
+        <p class='lead'>Gender: {{ gender }}</p>
+
+        <div>
+
+            {%- if status == 'Online' -%}
+
+            <span class='badge badge-success'>Online</span>
+            {%- elif status == 'Offline' -%}
+
+            <span class='badge badge-danger'>Offline</span>
+
+            {%- endif -%}
+
+        </div>
+
+        <p>{{ details }}</p>
+
+    </div>
+
+{% endblock %}
+
+<!-- this is a sample default web page template -->

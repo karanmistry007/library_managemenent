@@ -1,0 +1,169 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:first_name",
+ "creation": "2023-08-16 17:47:21.283258",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "full_name",
+  "column_break_7lbpf",
+  "birth_date",
+  "age",
+  "city",
+  "section_break_pvdq0",
+  "check_1",
+  "column_break_thb5s",
+  "button_1",
+  "section_break_g5qbs",
+  "family",
+  "section_break_iormi",
+  "check_2",
+  "column_break_mhdl8",
+  "button_2",
+  "section_break_xfxmr",
+  "education",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_7lbpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "birth_date",
+   "fieldtype": "Date",
+   "label": "Birth Date"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Select",
+   "label": "City",
+   "options": "Ahmedabad\nGandhinagar\nVadodra\nSurat"
+  },
+  {
+   "fieldname": "section_break_pvdq0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Family",
+   "options": "Client Child"
+  },
+  {
+   "fieldname": "section_break_iormi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Education",
+   "options": "child"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Final Scripting",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_1",
+   "fieldtype": "Check",
+   "label": "Family Form"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_2",
+   "fieldtype": "Check",
+   "label": "Education Form"
+  },
+  {
+   "fieldname": "column_break_thb5s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "button_1",
+   "fieldtype": "Button",
+   "label": "Quick Entry"
+  },
+  {
+   "fieldname": "button_2",
+   "fieldtype": "Button",
+   "label": "Quick Entry"
+  },
+  {
+   "fieldname": "section_break_g5qbs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mhdl8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_xfxmr",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-24 10:57:59.001602",
+ "modified_by": "Administrator",
+ "module": "Scripting",
+ "name": "Final Scripting",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
