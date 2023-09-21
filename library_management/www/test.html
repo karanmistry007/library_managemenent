@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>{{ title }}</title>
 </head>
+
 <body>
-    <h3>List of Users</h3>
+    <h3>List of Image</h3>
     <ol>
-    {% for user in users %}
-        {% if user.last_name %}
-        <li>{{ user.first_name }} {{ user.last_name}}</li>
-        {% else %}
-        <li>{{ user.first_name }}</li>
-        {% endif %}
-    {% endfor %}
+        {% for user in users %}
+            <h3>
+                {{user.name}}
+            </h3>
+            <img style="max-width: 100px;" src={{user.image}} alt="">
+        {% endfor %}
     </ol>
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
     <h3>List of Data</h3>
     <ol>
-    {% for data in data %}
+        {% for data in data %}
         {% if data.last_name %}
         <li>{{ data.first_name }} {{ data.last_name}}</li>
         {% else %}
         <li>{{ data.first_name }}</li>
         {% endif %}
-    {% endfor %}
+        {% endfor %}
     </ol>
 </body>
+
 </html>
