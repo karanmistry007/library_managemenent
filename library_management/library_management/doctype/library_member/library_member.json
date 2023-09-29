@@ -26,29 +26,34 @@
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Last Name"
   },
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Full Name",
    "read_only": 1
   },
   {
    "fieldname": "email_address",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Email Address",
    "options": "email"
   },
   {
    "fieldname": "phone_number",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Phone Number",
    "options": "phone"
   },
   {
    "fieldname": "amended_from",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Amended From",
    "no_copy": 1,
    "options": "Library Member",
@@ -58,7 +63,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-08 15:35:18.528422",
+ "modified": "2023-09-25 18:30:26.613554",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",

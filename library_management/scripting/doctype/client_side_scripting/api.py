@@ -6,7 +6,7 @@ app = Flask(__name__)
 def get_data():
     # Create a dictionary with name and age data
     data = {
-        'name': 'Deepo',
+        'name': 'Deepa Bhai',
         'age': 22
     }
     

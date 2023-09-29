@@ -109,15 +109,16 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "0",
    "fieldname": "enable",
-   "fieldtype": "Button",
+   "fieldtype": "Check",
    "label": "Enable"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-22 11:29:30.672969",
+ "modified": "2023-09-27 12:55:48.186635",
  "modified_by": "Administrator",
  "module": "Scripting",
  "name": "Server Side Scripting",
