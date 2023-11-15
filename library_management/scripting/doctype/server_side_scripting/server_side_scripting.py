@@ -323,13 +323,13 @@ class ServerSideScripting(Document):
         # #serialize and update a data into database
         # doc.db_update()
 
-        #####################################################################################################################################################
+        # #####################################################################################################################################################
         # #for getting list of the name of the document of the doctype
         # doc=frappe.db.get_list('Server Side Scripting',pluck="name")
         # for i in doc:
         #     frappe.msgprint(i)
 
-        #with the filters
+        # #with the filters
         # doc= frappe.db.get_list('Server Side Scripting',
         #     filters={
         #             'enable':1,
@@ -357,22 +357,21 @@ class ServerSideScripting(Document):
         # )
 
 
-        #it counts the total no of document inside the doctype
+        # #it counts the total no of document inside the doctype
         # temp=frappe.db.count('Server Side Scripting')
         # frappe.msgprint(str(temp))
 
 
-        #it deletes the doctype
+        # #it deletes the doctype
         # frappe.db.delete("Error Log")
 
-        #it Truncate a table in the database
+        # #it Truncate a table in the database
         # frappe.db.truncate("Error Log")
 
-        #it calls SQL commit 
-        #frappe.db.commit()
-
-        #frappe.db.savepoint 
-        #frappe.db.rollback()
+        # ### it calls SQL commit ###
+        # frappe.db.commit()
+        # frappe.db.savepoint 
+        # frappe.db.rollback()
         # frappe.db.multisql({'mariadb': mariadb_query, 'postgres': postgres_query})
         # frappe.db.rename_table(old_name, new_name)
         # frappe.db.describe(doctype)
@@ -384,7 +383,7 @@ class ServerSideScripting(Document):
 
 
 
-        #sql query using python
+        # #sql query using python
         # data=frappe.db.sql("""
         #                    SELECT
         #                         full_name,

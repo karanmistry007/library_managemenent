@@ -15,7 +15,7 @@ frappe.ui.form.on('Client Side Scripting', {
 	// 	frm.set_alert("hi")
 	// },
 	// middle_name: function(frm){
-	// 	frm.trigger('fullName');
+		// frm.trigger('fullName');
 	// },
 	// last_name: function(frm){
 	// 	frm.trigger('fullName');

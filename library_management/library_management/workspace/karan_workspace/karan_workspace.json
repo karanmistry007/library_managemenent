@@ -1,0 +1,86 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"1PMdELdw8I\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"custom\",\"col\":12}},{\"id\":\"rOzlw-YdKP\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\"><b>Karan Workspace</b></span>\",\"col\":12}},{\"id\":\"7B-r-i3qWB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DocType\",\"col\":3}},{\"id\":\"DL5UI9vUj5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":3}},{\"id\":\"Owp9Cp0wte\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User\",\"col\":3}},{\"id\":\"Bc89TeSY41\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Print Format\",\"col\":3}},{\"id\":\"BWgL_LNxE9\",\"type\":\"card\",\"data\":{\"card_name\":\"new\",\"col\":4}},{\"id\":\"xVPS-x1G6b\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"new\",\"col\":4}},{\"id\":\"4ox4DE2phC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"new\",\"col\":4}}]",
+ "creation": "2023-09-20 15:34:56.777057",
+ "custom_blocks": [
+  {
+   "custom_block_name": "custom",
+   "label": "custom"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "upload-lg",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "karan workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "new",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "new",
+   "link_count": 0,
+   "link_to": "Client Side Scripting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-15 13:37:13.467278",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "karan workspace",
+ "number_cards": [
+  {
+   "label": "new",
+   "number_card_name": "new"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "User",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "DocType",
+   "link_to": "DocType",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Print Format",
+   "link_to": "Print Format",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Role",
+   "link_to": "Role",
+   "type": "DocType"
+  }
+ ],
+ "title": "karan workspace"
+}
