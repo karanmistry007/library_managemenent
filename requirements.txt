@@ -1,1 +1,24 @@
 # frappe -- https://github.com/frappe/frappe is installed via 'bench init'
+asgiref==3.7.2
+Babel==2.14.0
+Django==4.2.8
+django-cors-headers==4.3.1
+django-extra-views==0.14.0
+django-haystack==3.2.1
+django-oscar==3.2.2
+django-phonenumber-field==6.4.0
+django-tables2==2.3.4
+django-treebeard==4.7
+django-widget-tweaks==1.5.0
+djangorestframework==3.14.0
+factory-boy==3.2.1
+Faker==21.0.0
+phonenumbers==8.13.27
+Pillow==10.1.0
+purl==1.6
+python-dateutil==2.8.2
+pytz==2023.3.post1
+six==1.16.0
+sorl-thumbnail==12.10.0
+sqlparse==0.4.4
+typing_extensions==4.9.0
